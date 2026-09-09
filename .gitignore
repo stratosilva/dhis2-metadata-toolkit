@@ -3,6 +3,13 @@
 .env.*
 !.env.example
 
+# Google service-account keys
+*-token-*.json
+service-account*.json
+
+# Local scratchpad, holds ad-hoc credentials
+test.py
+
 # IDE
 .idea/
 
